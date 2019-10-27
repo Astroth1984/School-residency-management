@@ -72,10 +72,10 @@ CREATE TABLE IF NOT EXISTS `appuser` (
 --
 
 INSERT INTO `appuser` (`IdUser`, `NameUser`, `passwordUser`, `EmailUser`, `PhoneUser`, `CINUser`) VALUES
-(1, 'Mohamed Amine EL alaoui', 'greenman', 'amine.elalaoui.med@gmail.com', '0663205709', 'W393394'),
-(2, 'Hajar EL QOTNI', '23bc6df7647b818d79ce7fc43fa0f460c188205a', 'haajar.eq@gmail.com', '0700112233', 'BK123456'),
-(9, 'Fettah TAHA', '41237a505d939ae273056ba68a8b2c8bfcdcf46b', 'taha.fettah@gmail.com', '06666666', 'A123465'),
-(8, 'Mohamed Amine', '23bc6df7647b818d79ce7fc43fa0f460c188205a', 'amine-elalaoui@um5s.net.ma', '0632200867', 'W456213');
+(1, 'EL MOUNIR Othmane', 'greenman', 'amine.elalaoui.med@gmail.com', '0663205709', 'W393394'),
+(2, 'othmane', '23bc6df7647b818d79ce7fc43fa0f460c188205a', 'haajar.eq@gmail.com', '0700112233', 'BK123456'),
+(9, 'el mounir', '41237a505d939ae273056ba68a8b2c8bfcdcf46b', 'taha.fettah@gmail.com', '06666666', 'A123465'),
+(8, 'Astroth1984', '23bc6df7647b818d79ce7fc43fa0f460c188205a', 'amine-elalaoui@um5s.net.ma', '0632200867', 'W456213');
 
 -- --------------------------------------------------------
 
