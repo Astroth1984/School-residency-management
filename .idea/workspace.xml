@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0b130489-8c7f-4ca3-921b-916a285d683f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/controller/AdminDeleteReservController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AdminNewBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AdminNewFloor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AdminNewRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/AdminUpdateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/BoysDormsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ClaimsAdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/ClaimsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/GirlsDorms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/InscriptionGController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/Logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R1Free.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R1Reserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R2Bfree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R2Breserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R2Ffree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R2Freserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R3Bfree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R3Breserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R3Ffree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R3Freserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R4free.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/controller/R4reserved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dao/ClaimDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Claim.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Resident.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/css/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/css/normalize.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/fonts/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/js/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/js/jquery-1.11.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/js/jquery.nav.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shAutoloader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushAS3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushAppleScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushBash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushCSharp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushColdFusion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushCpp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushCss.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushDelphi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushDiff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushErlang.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushGroovy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushJScript.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushJava.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushJavaFX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushPerl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushPhp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushPlain.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushPowerShell.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushPython.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushRuby.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushSass.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushScala.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushSql.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushVb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shBrushXml.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/scripts/shLegacy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCore.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shCoreRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeDefault.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeDjango.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeEclipse.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeEmacs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeFadeToGrey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeMDUltra.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeMidnight.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/MeetMe-doc/syntax-highlighter/styles/shThemeRDark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminclaim.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminclaims.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminhome.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminnewbuilding.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminnewfloor.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminnewroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminupdate.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/adminupdateroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/boysDorms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_about.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_about.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_courses.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_courses.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_feature.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_feature.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_gallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_gallery.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_instagram.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_instagram.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_price.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_price.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_service.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_service.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_testimonials.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/_testimonials.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/breadcrumb.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/breadcrumb.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/girlsDorms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/banner/banner-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/banner/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/banner/home-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/banner/shap-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/banner/shap-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/add.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/author.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/cat-post/cat-post-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/cat-post/cat-post-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/cat-post/cat-post-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/causes/causes-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/causes/causes-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/causes/causes-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/feature-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/main-blog/m-blog-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/main-blog/m-blog-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/main-blog/m-blog-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/main-blog/m-blog-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/main-blog/m-blog-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/popular-post/post1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/popular-post/post2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/popular-post/post3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/popular-post/post4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/post-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/post-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/blog/prev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/_DS_Store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/elements/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/portfolio_details.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/project-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/project-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/project-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/project-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/project-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/gallery/project-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/Image-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/ins-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/ins-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/ins-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/ins-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/ins-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/instagram/ins-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/personal-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/img/personal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/gmaps.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.ajaxchimp.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/mail-script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/stellar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r1free.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r1reserved.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r2bfree.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r2breserved.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r2ffree.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r2freserved.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r3bfree.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r3breserved.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r3ffree.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r3freserved.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r4free.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/r4reserved.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_blog.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_contact.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_elements.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_feature.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_gallery.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_predefine.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_testimonials.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servicecafeteria.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servicedorms.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/servicelaundry.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/serviceprinter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/studentclaim.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/userprofile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/animate-css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/animate-css/wow.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/bootstrap-datepicker/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/bootstrap-datepicker/bootstrap-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/bootstrap-datepicker/bootstrap-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/counter-up/jquery.counterup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/counter-up/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/_flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/_flaticon.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/flaticon/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/isotope/imagesloaded.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/isotope/isotope.pkgd.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/jquery-ui/jquery-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/jquery-ui/jquery-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/lightbox/simpleLightbox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/lightbox/simpleLightbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/linericon/fonts/Linearicons-Free.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/linericon/fonts/Linearicons-Free.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/linericon/fonts/Linearicons-Free.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/linericon/fonts/Linearicons-Free.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/linericon/fonts/Linearicons-Free.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/linericon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/nice-select/css/nice-select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/nice-select/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/nice-select/js/jquery.nice-select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/nice-select/js/jquery.nice-select.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/owl-carousel/assets/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/owl-carousel/assets/animated.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/owl-carousel/assets/owl.carousel.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/popup/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/vendors/popup/magnific-popup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/HomeAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/HomeAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/HomeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/HomeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/InscriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/InscriptionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/BatimentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/BatimentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreA2DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreA2DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreA3DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreA3DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreA4DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreA4DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreIndivDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/ChambreIndivDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/EtageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/EtageDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/InscriptionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/dao/InscriptionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/Batiment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/Batiment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/ChambreIndividuelle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/ChambreIndividuelle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/Inscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/Inscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/WEB-INF/classes/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/authentication-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/authentication-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/indexAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/indexAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/indexStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/GestionInternatRESTAPI/indexStudent.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/controller/HomeAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/controller/HomeAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/controller/HomeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/controller/HomeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/controller/InscriptionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/controller/InscriptionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/BatimentDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/BatimentDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreA2DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreA2DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreA3DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreA3DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreA4DAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreA4DAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreIndivDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/ChambreIndivDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/EtageDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/EtageDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/dao/InscriptionDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/dao/InscriptionDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/model/Batiment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/model/Batiment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/model/ChambreIndividuelle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/model/ChambreIndividuelle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/model/Inscription.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/model/Inscription.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GestionInternat/model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GestionInternat/model/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HomeAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/HomeStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/HomeStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/InscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/InscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/BatimentDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/BatimentDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ChambreA2DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ChambreA2DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ChambreA3DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ChambreA3DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ChambreA4DAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ChambreA4DAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/ChambreIndivDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/ChambreIndivDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/EtageDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/EtageDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dao/InscriptionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dao/InscriptionDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Batiment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Batiment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/authentication-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/authentication-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/indexAdmin.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/indexAdmin.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/indexStudent.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/indexStudent.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/adminupdateroom.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/adminupdate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/authentication-login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-506">
+              <caret line="41" column="100" selection-start-line="41" selection-start-column="100" selection-end-line="41" selection-end-column="100" />
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/r2freserved.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-6440">
+              <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/InscriptionDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/servicecafeteria.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="791">
+              <caret line="182" column="126" selection-start-line="182" selection-start-column="126" selection-end-line="182" selection-end-column="126" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/r1reserved.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-23">
+              <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/R1Reserved.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controller/R2Freserved.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dao/ChambreA2DAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1198">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loade</find>
+      <find>boys</find>
+      <find>IdChambre</find>
+      <find>girls</find>
+      <find>r2f-free</find>
+      <find>r2</find>
+      <find>&lt;h5&gt;</find>
+      <find>IdChambreA</find>
+      <find>h5</find>
+      <find>Tool</find>
+      <find>Boys</find>
+      <find>./claims</find>
+      <find>girl</find>
+      <find>GirlDor</find>
+      <find>widget</find>
+      <find>admin</find>
+      <find>getBatimentByIdBy</find>
+      <find>Nme</find>
+      <find>Girl</find>
+      <find>File</find>
+      <find>File a cla</find>
+      <find>Home</find>
+      <find>home</find>
+      <find>Home page</find>
+      <find>index.html</find>
+      <find>Hom</find>
+      <find>index</find>
+      <find>name</find>
+      <find>Index</find>
+      <find>Inscription</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/model/Data.java" />
+        <option value="$PROJECT_DIR$/src/controller/AdminNewBuilding.java" />
+        <option value="$PROJECT_DIR$/src/controller/AdminNewFloor.java" />
+        <option value="$PROJECT_DIR$/src/dao/BatimentDAO.java" />
+        <option value="$PROJECT_DIR$/src/dao/EtageDAO.java" />
+        <option value="$PROJECT_DIR$/src/controller/AdminNewRoom.java" />
+        <option value="$PROJECT_DIR$/src/dao/ChambreIndivDAO.java" />
+        <option value="$PROJECT_DIR$/src/controller/HomeAdmin.java" />
+        <option value="$PROJECT_DIR$/src/model/Claim.java" />
+        <option value="$PROJECT_DIR$/src/controller/ClaimsAdminController.java" />
+        <option value="$PROJECT_DIR$/src/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/dao/ClaimDAO.java" />
+        <option value="$PROJECT_DIR$/src/controller/HomeStudent.java" />
+        <option value="$PROJECT_DIR$/src/controller/ClaimsController.java" />
+        <option value="$PROJECT_DIR$/src/model/Student.java" />
+        <option value="$PROJECT_DIR$/web/adminclaims.jsp" />
+        <option value="$PROJECT_DIR$/web/adminhome.jsp" />
+        <option value="$PROJECT_DIR$/web/adminnewbuilding.jsp" />
+        <option value="$PROJECT_DIR$/web/adminnewfloor.jsp" />
+        <option value="$PROJECT_DIR$/web/adminnewroom.jsp" />
+        <option value="$PROJECT_DIR$/web/indexAdmin.jsp" />
+        <option value="$PROJECT_DIR$/web/adminclaim.jsp" />
+        <option value="$PROJECT_DIR$/web/r2ffree.jsp" />
+        <option value="$PROJECT_DIR$/web/girlsDorms.jsp" />
+        <option value="$PROJECT_DIR$/web/indexStudent.jsp" />
+        <option value="$PROJECT_DIR$/web/r1free.jsp" />
+        <option value="$PROJECT_DIR$/web/r1reserved.jsp" />
+        <option value="$PROJECT_DIR$/web/r2bfree.jsp" />
+        <option value="$PROJECT_DIR$/web/r2breserved.jsp" />
+        <option value="$PROJECT_DIR$/web/r2freserved.jsp" />
+        <option value="$PROJECT_DIR$/web/r3bfree.jsp" />
+        <option value="$PROJECT_DIR$/web/r3breserved.jsp" />
+        <option value="$PROJECT_DIR$/web/r3ffree.jsp" />
+        <option value="$PROJECT_DIR$/web/r3freserved.jsp" />
+        <option value="$PROJECT_DIR$/web/r4free.jsp" />
+        <option value="$PROJECT_DIR$/web/r4reserved.jsp" />
+        <option value="$PROJECT_DIR$/web/servicecafeteria.jsp" />
+        <option value="$PROJECT_DIR$/web/servicedorms.jsp" />
+        <option value="$PROJECT_DIR$/web/serviceprinter.jsp" />
+        <option value="$PROJECT_DIR$/web/servicelaundry.jsp" />
+        <option value="$PROJECT_DIR$/web/boysDorms.jsp" />
+        <option value="$PROJECT_DIR$/web/studentclaim.jsp" />
+        <option value="$PROJECT_DIR$/src/dao/ChambreA2DAO.java" />
+        <option value="$PROJECT_DIR$/src/model/Resident.java" />
+        <option value="$PROJECT_DIR$/src/controller/AdminUpdateController.java" />
+        <option value="$PROJECT_DIR$/web/adminupdate.jsp" />
+        <option value="$PROJECT_DIR$/src/controller/AdminDeleteReservController.java" />
+        <option value="$PROJECT_DIR$/src/controller/R1Reserved.java" />
+        <option value="$PROJECT_DIR$/src/dao/InscriptionDAO.java" />
+        <option value="$PROJECT_DIR$/web/adminupdateroom.jsp" />
+        <option value="$PROJECT_DIR$/web/authentication-login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="282" />
+    <option name="y" value="-8" />
+    <option name="width" value="1026" />
+    <option name="height" value="1047" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GestionInternat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GestionInternat" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548866321782" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JEE2019_Groupe2-2\back end\GestionInternat\web" />
+      <recent name="D:\projets\GestionInternat\back end\GestionInternat\src\dao" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JEE2019_Groupe2-2\back end\GestionInternat\web" />
+      <recent name="D:\JEE2019_Groupe2-2\back end\GestionInternat\src\controller" />
+      <recent name="D:\projets\jee\JEE2019_Groupe2-2\back end\GestionInternat\web" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="cls" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 15.0.1.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="GestionInternatRESTAPI">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4871" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b130489-8c7f-4ca3-921b-916a285d683f" name="Default Changelist" comment="" />
+      <created>1547947280364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1547947280364</updated>
+      <workItem from="1547947286172" duration="748000" />
+      <workItem from="1548009301445" duration="1036000" />
+      <workItem from="1548026787139" duration="4769000" />
+      <workItem from="1548112449068" duration="8494000" />
+      <workItem from="1548155032076" duration="1665000" />
+      <workItem from="1548198031322" duration="14935000" />
+      <workItem from="1548341271932" duration="4497000" />
+      <workItem from="1548368337002" duration="21565000" />
+      <workItem from="1548713224494" duration="1916000" />
+      <workItem from="1548729524917" duration="3643000" />
+      <workItem from="1548760241172" duration="16919000" />
+      <workItem from="1548795610403" duration="24550000" />
+      <workItem from="1548825207973" duration="117000" />
+      <workItem from="1548825404045" duration="113000" />
+      <workItem from="1548825615585" duration="24259000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="129226000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49667773" visible="true" weight="0.12526652" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" sideWeight="0.50332224" side_tool="true" weight="0.12526652" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32998884" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32887402" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3277592" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32998884" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Duplicate detector" order="15" weight="0.32998884" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/controller/ClaimsAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/R2Ffree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="74" lean-forward="true" selection-start-line="20" selection-start-column="74" selection-end-line="20" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="42" column="54" lean-forward="true" selection-start-line="38" selection-start-column="16" selection-end-line="42" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/ClaimsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="28" column="102" selection-start-line="28" selection-start-column="102" selection-end-line="28" selection-end-column="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1043#1044#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ClaimDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminclaims.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="184" column="138" lean-forward="true" selection-start-line="181" selection-start-column="20" selection-end-line="184" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminnewbuilding.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-314">
+          <caret line="145" column="67" selection-start-line="145" selection-start-column="67" selection-end-line="145" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminnewfloor.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1817">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminhome.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="173" column="62" selection-start-line="173" selection-start-column="62" selection-end-line="173" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/userprofile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1656" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminclaim.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="29" selection-start-column="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/indexAdmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="174" column="118" selection-start-line="174" selection-start-column="115" selection-end-line="174" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r2ffree.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="189" column="120" selection-start-line="189" selection-start-column="120" selection-end-line="189" selection-end-column="120" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/HomeStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/indexStudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="176" column="130" selection-start-line="176" selection-start-column="130" selection-end-line="176" selection-end-column="130" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r2bfree.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="188" column="126" selection-start-line="188" selection-start-column="126" selection-end-line="188" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r2breserved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="188" column="126" selection-start-line="188" selection-start-column="115" selection-end-line="188" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r3bfree.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="190" column="126" selection-start-line="190" selection-start-column="126" selection-end-line="190" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r3breserved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="189" column="126" selection-start-line="189" selection-start-column="126" selection-end-line="189" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r3ffree.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="189" column="126" selection-start-line="189" selection-start-column="126" selection-end-line="189" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r3freserved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="189" column="126" selection-start-line="189" selection-start-column="126" selection-end-line="189" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r4free.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="190" column="126" selection-start-line="190" selection-start-column="126" selection-end-line="190" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r4reserved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="190" column="126" selection-start-line="190" selection-start-column="126" selection-end-line="190" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/serviceprinter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" selection-end-line="205" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servicedorms.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="182" column="126" selection-start-line="182" selection-start-column="126" selection-end-line="182" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servicelaundry.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4163">
+          <caret line="205" column="13" selection-start-line="205" selection-start-column="13" selection-end-line="205" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/girlsDorms.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="189" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/boysDorms.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="189" column="12" selection-start-line="189" selection-start-column="12" selection-end-line="189" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/studentclaim.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="225" column="113" selection-start-line="225" selection-start-column="113" selection-end-line="225" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2463">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Chambre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Resident.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+          <folding>
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/StudentDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="135" column="5" lean-forward="true" selection-start-line="127" selection-start-column="4" selection-end-line="135" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r1free.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminnewroom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ChambreA2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminUpdateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/AdminDeleteReservController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/R2Breserved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/ChambreA2DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1198">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/R2Freserved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="65" lean-forward="true" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dao/InscriptionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/servicecafeteria.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="182" column="126" selection-start-line="182" selection-start-column="126" selection-end-line="182" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/R1Reserved.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="22" column="35" lean-forward="true" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r1reserved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23">
+          <caret line="2" column="65" lean-forward="true" selection-start-line="2" selection-start-column="65" selection-end-line="2" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminupdate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="196" column="16" lean-forward="true" selection-start-line="196" selection-start-column="16" selection-end-line="196" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/adminupdateroom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/authentication-login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-506">
+          <caret line="41" column="100" selection-start-line="41" selection-start-column="100" selection-end-line="41" selection-end-column="100" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/r2freserved.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6440">
+          <caret line="5" column="64" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="jpa-descriptors" />
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>GestionInternatRESTAPI</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>GestionInternat</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
